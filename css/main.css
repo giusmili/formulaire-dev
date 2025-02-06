@@ -1,0 +1,64 @@
+@import url(./reset.css);
+
+header {
+  h1 {
+    background-color: #222;
+    color: #fff;
+    line-height: 8rem;
+    text-align: center;
+  }
+}
+
+.form-primary {
+  max-width: 100rem;
+  margin: 5rem auto;
+
+  fieldset {
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+    padding: 1rem;
+
+    legend {
+      font-size: large;
+      text-transform: uppercase;
+    }
+
+    form {
+      input {
+        display: block;
+        border: solid 0.1rem #ccc;
+        padding: 1rem;
+        width: 100%;
+        margin: 1rem 0;
+        transition: all .6s ease-in-out;
+        line-height: 3rem;
+        
+      }
+      input:focus{
+        box-shadow: 0 0 3rem #e944e6;
+        outline: none;
+      }
+      label{
+        padding: 1rem;
+      }
+      input[type="submit"]{
+        background-color: rgba(41, 128, 185,1.0);
+        color: #fff;
+        text-transform: uppercase;
+        border: 0;
+        width: max-content;
+        border-radius: .4rem;
+        font-size: 1.4rem;
+        margin-bottom: 0;
+        cursor: pointer;
+        padding: 1rem;
+        box-shadow: none;
+        
+      }
+      
+      [placeholder]{
+        background-color: #ecdddd;
+      }
+    }
+  }
+}
