@@ -8,15 +8,28 @@ header {
     text-align: center;
   }
 }
+main{
+ /*  display: flex;
+  flex-direction: column;
+  justify-content: center; */
+ 
+}
 
 .form-primary {
-  max-width: 100rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100rem;
+  transform: translate(-50%, -50%);
   margin: 5rem auto;
+  z-index: 1;
+  
 
   fieldset {
     border: 0.1rem solid #ccc;
     border-radius: 0.4rem;
     padding: 1rem;
+    background-color: #fff;
 
     legend {
       font-size: large;
@@ -104,6 +117,10 @@ header {
 .warning-alert{
   background-color: #e71717;
   color: #fff;
+}
+.picture{
+  max-width: 40rem;
+  margin: 5rem auto 0;
 }
 
 footer *{
