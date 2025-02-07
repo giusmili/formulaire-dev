@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded",(e)=>{
 
         }
    
-
         btn_submit.addEventListener("click",(e)=>{
             e.preventDefault()
            
