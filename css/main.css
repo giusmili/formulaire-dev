@@ -67,15 +67,16 @@ header {
   width: max-content;
   padding: 1rem 3rem;
   margin: 2rem auto;
-
-  .warning-success{
-    background-color: #42c512;
-    color: inherit;
-  }
-  
-  
+}
+.warning-success{
+  background-color: #42c512d5;
+  color: inherit;
 }
 .warning-alert{
   background-color: #e71717;
   color: #fff;
+}
+
+footer *{
+  text-align: center;
 }
