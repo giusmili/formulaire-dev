@@ -18,6 +18,13 @@ document.addEventListener("DOMContentLoaded",(e)=>{
                     this.element.classList.add("warning-success")
                     this.element.classList.remove("warning-alert")
                     this.element.innerText = `Bonjour ${this.inputNom.value} ${this.inputPrenom.value } ${this.inputNumber.value}` 
+                    localStorage.setItem("user", this.inputPrenom.value)
+                    sessionStorage.setItem("app", this.inputNom.value)
+                    document.location.assign("dashboard.html")
+                    /* window.open("dashboard.html") */
+
+                   
+
                 }
                 else{
                     this.element.classList.remove("warning-success")
