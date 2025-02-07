@@ -39,7 +39,8 @@ main{
     form {
       input {
         display: block;
-        border: solid 0.1rem #ccc;
+        border: solid 0.2rem transparent;
+        border-bottom-color: #b4b2b2;
         padding: 1rem;
         width: 100%;
         margin: 1rem 0;
@@ -70,7 +71,7 @@ main{
       }
       
       [placeholder]{
-        background-color: #ecdddd;
+        background-color: #f8f3f3;
       }
     }
   }
