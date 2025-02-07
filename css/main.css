@@ -63,6 +63,35 @@ header {
   }
   
 }
+.content-default{
+  background-color: #fafafafa;
+  border:  solid .1rem #ccc;
+  box-shadow: 0 0 1rem #ccc;
+
+  h2{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    line-height: 5.5rem;
+  }
+  p{
+    padding: 1rem;
+  }
+  button{
+    background-color: rgba(41, 128, 185,1.0);
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    width: max-content;
+    border-radius: .4rem;
+    font-size: 1.4rem;
+    margin:0 0 1rem 1rem;
+    cursor: pointer;
+    padding: 1rem;
+    box-shadow: none;
+
+  }
+}
 .warning{
   width: max-content;
   padding: 1rem 3rem;
